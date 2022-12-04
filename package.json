@@ -10,7 +10,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/sejinki/tech-blog.git"
+      "url": "git+https://github.com/AMasoodi/tech-blog"
     },
     "keywords": [
       "Full",
@@ -20,9 +20,9 @@
     "author": "Se Jin Ki",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/sejinki/tech-blog/issues"
+      "url": "https://github.com/AMasoodi/tech-blog"
     },
-    "homepage": "https://github.com/sejinki/tech-blog#readme",
+    "homepage": "https://github.com/AMasoodi/tech-blog",
     "dependencies": {
       "bcrypt": "^5.1.0",
       "connect-session-sequelize": "^7.1.5",
