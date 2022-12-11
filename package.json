@@ -21,13 +21,13 @@
     "blog"
     "tech"
   ],
-  
+
   "author": "Ali Al Masoodi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AMasoodi/tech-blog/issues"
   },
-  "homepage": "https://github.com/AMasoodi/tech-blog",
+  "homepage": "https://github.com/AMasoodi/tech-blog/edit/main/README.md",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
