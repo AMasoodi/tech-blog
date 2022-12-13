@@ -17,8 +17,8 @@
   "keywords": [
     "Full",
     "stack",
-    "Application"
-    "blog"
+    "Application",
+    "blog",
     "tech"
   ],
 
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/AMasoodi/tech-blog/issues"
   },
-  
+
   "homepage": "https://github.com/AMasoodi/tech-blog/edit/main/README.md",
   "dependencies": {
     "bcrypt": "^5.1.0",
