@@ -2,6 +2,7 @@ header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
   
+  
   .no-button {
     background: none;
     border: solid;
@@ -12,6 +13,7 @@ header, .project:not(:last-child) {
     font-size: 90%;
   }
   
+
   .no-button:hover {
     color: #5a5b5c;
     text-decoration: underline;

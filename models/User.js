@@ -8,6 +8,7 @@ class User extends Model {
   }
 }
 
+
 User.init(
   {
     id: {
@@ -36,6 +37,7 @@ User.init(
       },
     },
   },
+
   {
     hooks: {
       beforeCreate: async (newUserData) => {
@@ -46,6 +48,7 @@ User.init(
         updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
         return updatedUserData;
       },
+
     },
     sequelize,
     timestamps: false,
@@ -54,5 +57,6 @@ User.init(
     modelName: 'user',
   }
 );
+
 
 module.exports = User;

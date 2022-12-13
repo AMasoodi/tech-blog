@@ -12,6 +12,7 @@ const seedDatabase = async () => {
     returning: true,
   });
 
+
   for (const project of projectData) {
     await Project.create({
       ...project,
@@ -19,6 +20,7 @@ const seedDatabase = async () => {
     });
   }
 
+  
   process.exit(0);
 };
 
